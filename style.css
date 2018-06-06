@@ -1,3 +1,41 @@
-#name {
-    margin: 0 auto;
+.nav-mike {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    border-bottom: 1px #777777 solid;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.head-font {
+    color: #777777;
+}
+
+.container {
+    border: red solid 1px;
+    background-color: white;
+}
+
+h1 {
+    border-bottom: 1px solid gray;
+}
+
+img {
+    height: 300px;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background-image: url(palm-leaf.png);
+    size: 100%;
 }
