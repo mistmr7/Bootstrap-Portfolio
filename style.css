@@ -4,6 +4,9 @@
     margin: 0 0 30px;
     overflow: auto;
     border-bottom: 1px #777777 solid;
+    position: fixed;
+    z-index: 3;
+
 }
 
 .navbar-brand {
@@ -36,6 +39,24 @@ p {
 }
 
 body {
-    background-image: url(palm-leaf.png);
+    background-image: url(img/palm-leaf.png);
     size: 100%;
+    
+}
+
+#Profile {
+    height: 600px;
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #666666;
+    z-index: 100;
+    Position: fixed;
+    height: 30px;   
+}
+
+#Portfolio {
+    height: 600px;
+    padding-top: 100px;
 }
