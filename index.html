@@ -12,18 +12,20 @@
     </head>
   <body>
         <nav class="navbar nav-fill nav-mike">
-            <a class="navbar-brand" href="https://www.linkedin.com/in/michael-mistarz-0639187a/" alt="LinkedIn Profile" target ="_blank">Mike Mistarz</a>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link head-font" href="#Profile">Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link head-font" href="#Portfolio">Portfolio</a>
-                </Li>
-                <li class="nav-item">
-                    <a class="nav-link head-font" href="#Contact">Contact</a>
-                </li>
-                </ul>
+            <div class=container>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/michael-mistarz-0639187a/" alt="LinkedIn Profile" target ="_blank">Mike Mistarz</a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link head-font" href="#Profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link head-font" href="#Portfolio">Portfolio</a>
+                    </Li>
+                    <li class="nav-item">
+                        <a class="nav-link head-font" href="#Contact">Contact</a>
+                    </li>
+                    </ul>
+            </div>
         </nav>    
     <div id="Profile">
         <div class="container">
@@ -38,36 +40,87 @@
             </div>
         </div>
     </div>
-    <div id ="Portfolio">
-        <div class="container">
-            <div class=row>
-                <div class="col-4">
-                    <img src="https://picsum.photos/199/200/?random" alt="Portfolio 1">
+    <div id="Portfolio">
+        <div class=container>
+            <div class="row">
+                <h1 class="col-12">Portfolio</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="card col-3 card-port">
+                    <div class="card-body">
+                        
+                    </div>
+                    <div class="card-footer text-center cfoot">Project 1</div>
                 </div>
-                <div class="col-4">
-                    <img src="https://picsum.photos/201/200/?random" alt="Portfolio 2">
+                <div class="card col-3 card-port">
+                    <div class="card-body">
+                                   
+                    </div>
+                    <div class="card-footer text-center cfoot">Project 2</div>
                 </div>
-                <div class="col-4">
-                    <img src="https://picsum.photos/201/201/?random" alt="Portfolio 3">
+                <div class="card col-3 card-port">
+                    <div class="card-body">
+                                  
+                    </div>
+                    <div class="card-footer text-center cfoot">Project 3</div>
                 </div>
             </div>
-            <div class=row>
-                <div class="col-4">
-                    <img src="https://picsum.photos/200/199/?random" alt="Portfolio 4">
+            <div class="row justify-content-center">
+                    <div class="card col-3 card-port">
+                        <div class="card-body">
+                                    
+                        </div>
+                        <div class="card-footer text-center cfoot">Project 4</div>
+                    </div>
+                    <div class="card col-3 card-port">
+                        <div class="card-body">
+                                       
+                        </div>
+                        <div class="card-footer text-center cfoot">Project 5</div>
+                    </div>
+                    <div class="card col-3 card-port">
+                        <div class="card-body">
+                                      
+                        </div>
+                        <div class="card-footer text-center cfoot">Project 6</div>
+                    </div>
+                </div>  
+        </div>
+    </div>
+    <div id="Contact">
+        <div class="container" style="height: 400px" style="margin-bottom:100px">
+            <div class="row">
+                <h1 class="col-12">Contact</h1>
+            </div>
+            <form class="justify-content-center align-self-center">
+                <div class="form-group">
+                        <label for="FormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="FormControlInput1" placeholder="Enter your name here">
+                </div>    
+                <div class="form-group">
+                    <label for="FormControlInput2">Email address</label>
+                    <input type="email" class="form-control" id="FormControlInput2" placeholder="name@example.com">
                 </div>
-                <div class="col-4">
-                    <img src="https://picsum.photos/200/201/?random" alt="Portfolio 5">
+                <div class="form-group">
+                    <label for="FormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" item-height="200px" placeholder="Send me a message and I'll get back to you ASAP!"></textarea>
                 </div>
-                <div class="col-4">
-                    <img src="https://picsum.photos/201/200/?random" alt="Portfolio 6">
-                </div>
+            </form>
+
             </div>
         </div>
     </div>
+    <div class="container" style="margin-bottom: 150px">
+        <div class="row">
+            <img class="col-6 fiximg" src="img/Janelle.JPG" alt="Janelle in Santorini">
+            <img class="col-6 fiximg" src="img/Coco.jpg" alt="Coco on the porch">
+        </div>
+    </div>
 
-
-    <footer class="text-center">
-        <font>Mike Mistarz Copyright 2018</font>
+    <footer>
+        <div class="card-footer text-center footer1">
+            Mike Mistarz Copyright 2018
+        </div>
 
     </footer>
     <!-- Optional JavaScript -->
