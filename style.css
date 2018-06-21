@@ -94,3 +94,8 @@ body {
     width: 75%;
     height: 150%;
 }
+
+.swGame {
+    background-image: url('../homework/unit-4-game/assets/images/Star-Wars-Background-HD.jpg');
+    background-size: cover;
+}
