@@ -96,6 +96,11 @@ body {
 }
 
 .swGame {
-    background-image: url('../homework/unit-4-game/assets/images/Star-Wars-Background-HD.jpg');
+    background-image: url('../../homework/unit-4-game/assets/images/Star-Wars-Background-HD.jpg');
+    background-size: cover;
+}
+
+.jTrivia {
+    background-image: url('../../homework/TriviaGame/TriviaGame/assets/img/background.jpg');
     background-size: cover;
 }
