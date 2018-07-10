@@ -104,3 +104,9 @@ body {
     background-image: url('../../homework/TriviaGame/TriviaGame/assets/img/background.jpg');
     background-size: cover;
 }
+
+.boxShadow {
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+
