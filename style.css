@@ -96,17 +96,32 @@ body {
 }
 
 .swGame {
-    background-image: url('../../homework/unit-4-game/assets/images/Star-Wars-Background-HD.jpg');
+    background-image: url('./img/Star-Wars-Background-HD.jpg');
     background-size: cover;
 }
 
 .jTrivia {
-    background-image: url('../../homework/TriviaGame/TriviaGame/assets/img/background.jpg');
+    background-image: url('./img/Trivia.jpg');
     background-size: cover;
 }
 
 .boxShadow {
     box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.giphyAPI {
+    background-image: url('./img/Giphy.png');
+    background-size: cover;
+}
+
+.firebaseTrain {
+    background-image: url('./img/firebase-train.png');
+    background-size: cover;
+}
+
+.raleighVibes {
+    background-image: url('./img/Raleigh-vibes.png');
+    background-size: cover;
 }
 
 
